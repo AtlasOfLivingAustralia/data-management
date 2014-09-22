@@ -9,4 +9,4 @@ Before data can be displayed in the Atlas of Living Australia (Atlas) it is subj
   3. [Data sensitivity check](http://www.ala.org.au/about-the-atlas/how-we-integrate-data/data-sensitivity-checks/) —to identify if the data relates to a species that is sensitive for reasons of conservation or biosecurity.
 See also:
   1. [Our data providers](http://www.ala.org.au/about-the-atlas/our-data-providers/) for information on who provides our data
-  2. {Atlas data}(http://www.ala.org.au/about-the-atlas/atlas-data/) for information on the types and nature of the data used by the Atlas
+  2. [Atlas data](http://www.ala.org.au/about-the-atlas/atlas-data/) for information on the types and nature of the data used by the Atlas
