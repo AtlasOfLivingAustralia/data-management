@@ -50,7 +50,8 @@ for Hybrid Formula: Daviesia leptophylla Daviesia mimosoides
 **4.1. What format are date fields, e.g. dateIdentified, dateCollected, eventDate, etc.?**
 
 -	We can do some format conversion but it’s best to provide them in ISO 8601 (https://en.wikipedia.org/wiki/ISO_8601) compliant format e.g. 2009-02-20, it’ll cope with times as well (2009-02-20T08:40Z)
-**5. Assigning records to collections and institutions
+
+**5. Assigning records to collections and institutions**
 -	If records are not showing up under institution and collection pages then check:
 The providerMap mappings that assign institution codes and collection codes from records to the institution and collection entities
 The Record consumer section on the data resource admin page
