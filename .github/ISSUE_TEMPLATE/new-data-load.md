@@ -19,6 +19,7 @@ assignees: ''
 - [ ] Map dataset to Darwin Core Terms if necessary http://rs.tdwg.org/dwc/terms/
 - [ ] Create new data resource using https://collections.ala.org.au/admin
 - [ ] Upload the dataset to collections.ala.org.au
+- [ ] [Optional] If the dataset is destined to be included in a data hub, identify the data hub and add the new data resource id to its list https://collections.ala.org.au/dataHub/list
 - [ ] Load/sample/process dataset http://aws-scjenkins.ala:9193/job/Parameterised%20Load%20Sample%20Process/ 
 - [ ] Note the statistics for total and new records from the end of the log file for the load by pasting the relevant lines here:
 ```
