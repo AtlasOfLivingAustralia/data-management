@@ -1,5 +1,5 @@
 ---
-name: New data load
+name: Data Load - New
 about: Steps necessary for new data loads
 title: 'Load data : '
 labels: Data Load

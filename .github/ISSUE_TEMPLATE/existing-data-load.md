@@ -1,5 +1,5 @@
 ---
-name: Existing data load
+name: Data Load - Existing
 about: Steps necessary for existing data loads
 title: 'Data load :'
 labels: Data Load
