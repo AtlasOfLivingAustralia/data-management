@@ -1,6 +1,6 @@
 ---
 name: Data Load - Existing Data Resource
-about: Steps necessary for existing data loads where the data resource has already been created and there is data previously uploaded to the ALA
+about: Steps necessary for existing data loads where the data resource has already been created and data has been previously uploaded to the ALA
 title: 'Merge Data Load :'
 labels: Data Load
 assignees: ''
