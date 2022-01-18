@@ -27,7 +27,7 @@ assignees: ''
 - [ ] Check that species, location, times are adequately specific. Check back with the data provider if necessary
 
 **Data Load**
-- [ ] Upload the DwCA to collections.ala.org.au or onto the dmgt server
+- [ ] Upload the new DwCA to the dmgt server
 - [ ] Run the Ingest_dataset job on Jenkins, setting the data resource UID (DRNNNN) parameter http://aws-spark-quoll-master.ala:9194/job/Ingest-dataset/
 - [ ] Note the statistics for total and new records from the end of the log file for the load by pasting the relevant lines here:
 ```
