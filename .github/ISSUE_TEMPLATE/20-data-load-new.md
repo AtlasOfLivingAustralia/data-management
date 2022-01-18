@@ -1,7 +1,7 @@
 ---
 name: Data Load - New Data Resource
-about: Steps necessary for new data loads
-title: 'Load data : '
+about: Steps necessary for completely new data loads
+title: 'New Data Load : '
 labels: Data Load
 assignees: ''
 
@@ -35,7 +35,7 @@ assignees: ''
 ```
 **QA**
 - [ ] Wait overnight for next complete reindex
-- [ ] Check that the number of records accessible match the loaded numbers using https://biocache.ala.org.au/occurrence/search?q=data_resource_uid:drNNN
+- [ ] Check that the number of records accessible match the loaded numbers using https://biocache.ala.org.au/occurrence/search?q=data_resource_uid:drNNNN
 - [ ] Ask the data provider to review the new records using the same URL
 
 Other checks
