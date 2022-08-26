@@ -1,3 +1,12 @@
+---
+name: Jenkins - Automated Data Load Monitoring
+about: List of jobs to monitor each week
+title: 'Monitor Data Loads : '
+labels: Data Load
+assignees: ''
+
+---
+
 - [ ] After creation, add this issue to the Data Management project board https://github.com/orgs/AtlasOfLivingAustralia/projects/9
 
 **Jenkins Access**
