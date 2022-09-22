@@ -22,6 +22,8 @@ assignees: ''
 Please enter Week commencing date: 22/08/2022
 
 **Tuesday Monitoring**
+
+**Data-resource-loads** folder:
  - [ ]  dp3903-biocollect-monthly 
  - [ ]  dr1411-inaturalist-weekly    
  - [ ]  dr15863-perth-avh-weekly  
@@ -31,8 +33,12 @@ Please enter Week commencing date: 22/08/2022
      
 
 **Friday Monitoring**
+
+**GBIF** folder:
  - [ ]  Dwca-export-all      
  - [ ]  Dwca-package-for-gbif-all   
+
+**Data-resource-loads** folder:
  - [ ]  dr10574-ho-avh-weekly    
  - [ ]  dr15860-canb-avh-weekly   
  - [ ]  dr15867-cns-avh-weekly
