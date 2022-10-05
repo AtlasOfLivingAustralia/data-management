@@ -6,20 +6,25 @@ labels: Data Load
 assignees: ''
 ---
 
-- [ ] After creation, add this issue to the Data Management project board https://github.com/orgs/AtlasOfLivingAustralia/projects/9
+- [ ] After creation, add this issue to the [Data Management project board](https://github.com/orgs/AtlasOfLivingAustralia/projects/9).
 
 **Jenkins Access**
 - **SSH:**   ssh -L 9194:127.0.0.1:9194 aws-spark-quoll-master.ala
-- **Data resource loads:** http://aws-spark-quoll-master.ala:9194/job/Data-resource-loads/
-- **GBIF Loads:** [http://aws-spark-quoll-master.ala:9194/job/](http://aws-spark-quoll-master.ala:9194/job/Data-resource-loads/)GBIF
+- **Data resource loads:** [Data resource loads](http://aws-spark-quoll-master.ala:9194/job/Data-resource-loads/)
+- **GBIF Loads:** [GBIF Loads](http://aws-spark-quoll-master.ala:9194/job/Data-resource-loads/GBIF)
 
 **Reference**
-- **Jenkins - Automated Data Load Schedule:** https://confluence.csiro.au/display/ALASD/Jenkins+-+Automated+Data+Load+Schedule
+- **Jenkins - Automated Data Load Schedule:** [Jenkins Schedule](https://confluence.csiro.au/display/ALASD/Jenkins+-+Automated+Data+Load+Schedule)
 
 ***
 **Monitoring Schedule**  - automated jobs are to be monitored twice per week on **Tuesday** and **Friday**.  
 
 Please enter Week commencing date: 22/08/2022
+**Sandbox Monitoring**
+- Go to: [Sandbox](https://sandbox.ala.org.au/tempDataResource/adminList?max=10&offset=270&status=&sortField=lastUpdated&sortOrder=desc)
+- Check for uploaded datasets that look to be from 'real' users. Ignore Test or datasets that are for the spatial portal. 
+- Flag any datasets that need to be looked at.
+
 
 **Tuesday Monitoring**
 
