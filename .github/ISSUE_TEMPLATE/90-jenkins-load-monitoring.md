@@ -44,11 +44,9 @@ Please enter Week commencing date: 22/08/2022
  - [ ]  Dwca-package-for-gbif-all   
 
 **Data-resource-loads** folder:
- - [ ]  dr10574-ho-avh-weekly    
  - [ ]  dr15860-canb-avh-weekly   
  - [ ]  dr15867-cns-avh-weekly
  - [ ]  dr15868-jct-avh-weekly 
- - [ ]  dr2153-nzvh-avh-weekly 
  - [ ]  dr341-canb-anwc-weekly 
  - [ ]  dr7973-cPlatypus-weekly  
 
