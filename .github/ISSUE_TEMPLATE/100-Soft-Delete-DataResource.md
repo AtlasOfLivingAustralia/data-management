@@ -1,6 +1,11 @@
-Here we go
-This is the template. Add details here:
+---
+name: Soft Delete DataResource 
+about: Steps necessary for deleting a dataResource 
+title: 'New Data Load : '
+labels: Delete DataResource
+assignees: ''
 
-- [ ]  test
-- [ ]  publish
-- [ ] production
+---
+
+- [ ] After creation, add this issue to the Data Management project board https://github.com/orgs/AtlasOfLivingAustralia/projects/9
+
