@@ -31,6 +31,10 @@ projects: AtlasOfLivingAustralia/21
     - [ ] UUIDs
     - [ ] Sensitive records
     - [ ] Quality Filters
+    - [ ] License is present
+    - [ ] Coordinate precision should be something like: 0.00001
+    - [ ] Occurrence status inferred or exists in the source data
+    - [ ] Collection code/institution codes map to a provider map
 - [ ] Note the statistics for total and new records from UUID step of the ingest here:
 ```
 [Log entries..... ]
