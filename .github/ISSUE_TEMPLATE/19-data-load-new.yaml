@@ -1,4 +1,4 @@
-name: Data Load - New Data Resource
+name: Data Load - New Data Resource Form
 description: Create an issue to load a new data resource into the Atlas of Living Australia.
 title: "[Bug]: "
 labels: ["bug", "triage"]
