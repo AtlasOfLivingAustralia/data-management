@@ -23,12 +23,12 @@ body:
     attributes:
       label: Meta-data about the data resource
       options:
-        - label: " Ask data provider for metadata, including:
-            - Data resource name
-            - Description
-            - License: prefer Creative Commons Attribution https://creativecommons.org/licenses/by/4.0/
-            - Citation: Statement to be used by those downloading and using these records
-            - Contact: Email and/or phone number
+        - label: " Ask data provider for metadata, including:<br>
+            - Data resource name<br>
+            - Description<br>
+            - License: prefer Creative Commons Attribution https://creativecommons.org/licenses/by/4.0/<br>
+            - Citation: Statement to be used by those downloading and using these records<br>
+            - Contact: Email and/or phone number<br>
             - Other fields as necessary"
           required: false
         - label: Using the metadata, create a new data resource using https://collections.ala.org.au/admin
