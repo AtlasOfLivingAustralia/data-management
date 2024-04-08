@@ -1,11 +1,11 @@
 ---
-name: Data Load - New Data Resource
-about: Steps necessary for completely new data loads
-title: 'New Data Load : '
+name: Data Load 
+about: Steps necessary for data loads either new or existing data resources
+title: '[DR...] Data Load : DR NAME'
 labels: Data Load
 projects: AtlasOfLivingAustralia/21
 ---
-**Metadata**
+**Metadata For New DR**
 - [ ] Ask data provider for metadata, including:
 * Data resource name
 * Description
@@ -14,6 +14,8 @@ projects: AtlasOfLivingAustralia/21
 * Contact : Email and/or phone number
 * Other fields as necessary
 - [ ] Using the metadata, create a new data resource in collectory TEST & PROD
+
+**Metadata For New/Existing DR**
 - [ ] Ensure the correct connection parameters are specified at the DR (Unique identifiers! Protocol!) `Custom Web Service` used as the protocol for Fetchers
 
 **Data Prep**
@@ -42,7 +44,6 @@ projects: AtlasOfLivingAustralia/21
 - [ ] inform the data provider that the dataset has been loaded successfully in production with a URL to the records
 
 Other checks
-- [ ] [Optional] Should we run through the process using Databox first?
 - [ ] [Optional] If the dataset is destined to be included in a data hub, identify the data hub and add the new data resource id to its list https://collections.ala.org.au/dataHub/list
 - [ ] [Optional] Is it a collection? Make sure the provider map in the collectory (https://collections.ala.org.au/providerMap/list) works such that collectionCode and institionCode in the source data map to the right collection
 
