@@ -23,18 +23,18 @@ body:
     attributes:
       label: Meta-data about the data resource
       options:
-        - label: >
+        - label: |
             Ask data provider for metadata, including:
-            Data resource name
-            Description
-            License: prefer Creative Commons Attribution https://creativecommons.org/licenses/by/4.0/
-            Citation: Statement to be used by those downloading and using these records
-            Contact: Email and/or phone number
-            Other fields as necessary
+            - Data resource name
+            - Description
+            - License: prefer Creative Commons Attribution [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+            - Citation: Statement to be used by those downloading and using these records
+            - Contact: Email and/or phone number
+            - Other fields as necessary
           required: false
-        - label: Using the metadata, create a new data resource using https://collections.ala.org.au/admin
+        - label: Using the metadata, create a new data resource using [ALA Collections](https://collections.ala.org.au/admin)
           required: false
-        - label: Ensure the correct connection parameters are specified at https://collections.ala.org.au/dataResource/show/drNNNN (Unique identifiers! Protocol!)
+        - label: Ensure the correct connection parameters are specified at [ALA Data Resource](https://collections.ala.org.au/dataResource/show/drNNNN) (Unique identifiers! Protocol!)
           required: false
         
   - type: checkboxes
