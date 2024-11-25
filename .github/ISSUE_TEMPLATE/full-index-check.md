@@ -13,6 +13,7 @@ Every day:
 -  assertions sync has run ( ie check user assertion counts are in DQ Profile)
 -  images processing is progressing and not stalled
 -  check there are no long-running (ie > 24 hours) clusters (filter on Running status)
+-  clear biocache cache (has to be done after assertion sync and index switch successfully switched)
 
 Raise any issues on the data management internal channel 
 
