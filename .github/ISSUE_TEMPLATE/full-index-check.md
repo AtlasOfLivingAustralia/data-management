@@ -37,11 +37,11 @@ Once a week (whenever):
 | 3am | Index to SOLR |
 | 7am | OBIS | dp5183-obis-weekly|
 
+
 **Weekly**
 | Day | Time | Job |DR | Job Name|
 | --- | --- | --- | --- | --- |
 | Mon | 12am | BIS Weeds  | dr27665|  dr27665-BISFetcher-weekly
-| Mon | 12am | Hobart AVH  | dr10574 | dr10574-ho-avh-weekly |
 | Mon | 12.45am | AD AVH | dr15865 |  dr15865-ad-avh-weekly|
 | Mon | 9am | iNaturalist | dr1411| dr1411-inaturalist-weekly |
 | Mon | 7pm | FeralScan | dr19813 | dr19813-feralscan-weekly |
@@ -66,6 +66,7 @@ Once a week (whenever):
 | First Wed | 9am | TurtleSat | dr26141 | dr26141-turtleSat-monthly |
 | First Wed | 9am | UC Genomics | dr25075 | dr25075-UCGenomics-monthly |
 | 5th | 12am | UniMelb AVH | dr13282 | dr13282-melu-avh-monthly |
+| 5th | 12am | Hobart AVH  | dr10574 | dr10574-ho-avh-monthly |
 | 6th | 12am | Allan Herbarium | dr27654| dr27654-chr-avh-monthly |
 | 6th | 12.01am | WELT AVH | dr26642 | dr26642-welt-avh-monthly |
 | 6th | 12.15am | Auckland Museum Botanical  | dr26650 | dr26650-ak-avh-monthly |
