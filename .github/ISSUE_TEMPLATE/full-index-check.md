@@ -8,11 +8,11 @@ assignees: ''
 ---
 Every day:
 
-- monitor the index switch 
+-  monitor the index switch 
 -  all scheduled jobs for the day completed successfully (raise on Slack if not) 
 -  assertions sync has run ( ie check user assertion counts are in DQ Profile)
 -  images processing is progressing and not stalled
--  check there are no long-running (ie > 24 hours) clusters (filter on Running status)
+-  check there are no long-running (ie > 24 hours) clusters (filter on Running state)
 -  clear biocache cache (has to be done after assertion sync and index successfully switched)
 
 Raise any issues on the data management internal channel 
@@ -42,14 +42,13 @@ Once a week (whenever):
 | Day | Time | Job |DR | Job Name|
 | --- | --- | --- | --- | --- |
 | Mon | 12am | BIS Weeds  | dr27665|  dr27665-BISFetcher-weekly
-| Mon | 12.45am | AD AVH | dr15865 |  dr15865-ad-avh-weekly|
-| Mon | 9am | iNaturalist | dr1411| dr1411-inaturalist-weekly |
+| Mon | 7am | iNaturalist | dr1411| dr1411-inaturalist-weekly |
 | Mon | 7pm | FeralScan | dr19813 | dr19813-feralscan-weekly |
 | Tue | 12am | Mel AVH | dr13282 | dr13282-mel-avh-weekly|
 | Tue | 9am | cPlatypus | dr7973 | dr7973-cplatypus-weekly |
-| Tue | 9am | Biocollect | dp3903 | dp3903-biocollect-weekly |
 | Tue | 9am | APII | dr413 | dr413-apii-weekly |
 | Tue | 9am | Butterflies Aust | dr16457 |  dr16457-butterflies-weekly|
+| Tue | 5pm | Biocollect | dp3903 | dp3903-biocollect-weekly |
 | Tue | 8pm | Bionet | dr368 |  dr368-bionet-weekly |
 | Wed | 12am | Perth AVH | dr15863 | dr15863-perth-avh-weekly |
 | Wed | 8am | Questagame | dr1902| dr1902-questagame-weekly |
