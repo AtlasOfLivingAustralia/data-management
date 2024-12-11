@@ -10,7 +10,7 @@ Every day:
 
 -  monitor the index switch
   - open`stdout` in step `k. Check index and update collection alias`
-  - scroll to bottom and record `Current#, NEW#, DIFF#` values
+     - scroll to bottom and record `Current#, NEW#, DIFF#` values
 -  all scheduled jobs for the day completed successfully (raise on Slack if not) 
 -  assertions sync has run - check user assertion counts are in DQ Profile
       
@@ -19,7 +19,7 @@ Every day:
 -  images processing is progressing and not stalled - take note of the `lastUpdated` field in a loading batch
 -  check there are no long-running (ie > 24 hours) clusters
 
-     In Airflow - select `Browse->Dag Runs` and filter on running state
+    - In Airflow - select `Browse->Dag Runs` and filter on running state
       
         <img src="https://github.com/user-attachments/assets/3b69816d-09d3-4902-88ce-b80436110d54" alt="Description" width="300" height="200">
 
