@@ -12,7 +12,7 @@ Every day:
   - open`stdout` in step `k. Check index and update collection alias`
      - scroll to bottom and record `Current#, NEW#, DIFF#` values
 -  all scheduled jobs for the day completed successfully (raise on Slack if not) 
--  assertions sync has run - check user assertion counts are in DQ Profile
+-  assertions sync has run - check user assertion counts are in DQ Profile: https://biocache.ala.org.au/occurrences/search?q=
       
      <img src="https://github.com/user-attachments/assets/213ddffb-c7fb-4084-8b56-f13cecd8f61e" alt="Description" width="300" height="150">
      
