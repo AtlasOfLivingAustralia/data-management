@@ -8,22 +8,22 @@ assignees: ''
 ---
 Every day:
 
-- [ ] monitor the index switch
+-  monitor the index switch
   - open`stdout` in step `k. Check index and update collection alias`
   - scroll to bottom and record `Current#, NEW#, DIFF#` values
-- [ ] all scheduled jobs for the day completed successfully (raise on Slack if not) 
-- [ ] assertions sync has run - check user assertion counts are in DQ Profile
+-  all scheduled jobs for the day completed successfully (raise on Slack if not) 
+-  assertions sync has run - check user assertion counts are in DQ Profile
       
      <img src="https://github.com/user-attachments/assets/213ddffb-c7fb-4084-8b56-f13cecd8f61e" alt="Description" width="300" height="150">
      
-- [ ] images processing is progressing and not stalled - take note of the `lastUpdated` field in a loading batch
-- [ ] check there are no long-running (ie > 24 hours) clusters
+-  images processing is progressing and not stalled - take note of the `lastUpdated` field in a loading batch
+-  check there are no long-running (ie > 24 hours) clusters
 
-  In Airflow - select `Browse->Dag Runs` and filter on running state
+     In Airflow - select `Browse->Dag Runs` and filter on running state
       
-     <img src="https://github.com/user-attachments/assets/3b69816d-09d3-4902-88ce-b80436110d54" alt="Description" width="300" height="200">
+        <img src="https://github.com/user-attachments/assets/3b69816d-09d3-4902-88ce-b80436110d54" alt="Description" width="300" height="200">
 
-- [ ] clear biocache cache (has to be done after assertion sync and index successfully switched)
+-  clear biocache cache (has to be done after assertion sync and index successfully switched)
 
 Raise any issues on the data management internal channel 
 
