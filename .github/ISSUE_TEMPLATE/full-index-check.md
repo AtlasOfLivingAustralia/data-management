@@ -38,6 +38,9 @@ Raise any issues on the data management internal channel
 Once a week (whenever):
 -  sensitive data check (script in GitHub)
 
+**Note: Index Switch** - if manual index switch is needed run DAG `Update-Collection-Alias`
+
+
 ## Job Schedule
 
 [Scheduled jobs - Github config](https://github.com/AtlasOfLivingAustralia/databox/blob/master/airflow/pipelines-job-schedules/job-schedule-config-prod.json) 
