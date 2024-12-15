@@ -6,26 +6,30 @@ labels: Full Index, Data loads, Assertion Sync and Image Service
 assignees: ''
 
 ---
-Every day:
+**Every day**
 
 -  monitor the index switch
   - open`stdout` in step `k. Check index and update collection alias`
      - scroll to bottom and record `Current#, NEW#, DIFF#` values
 -  all scheduled jobs for the day completed successfully (raise on Slack if not) 
--  assertions sync has run - check user assertion counts are in DQ Profile
-  https://biocache.ala.org.au/occurrences/search?q=
+-  assertions sync has run - check user assertion counts are in DQ Profile using query:
+`https://biocache.ala.org.au/occurrences/search?q=`
       
      <img src="https://github.com/user-attachments/assets/213ddffb-c7fb-4084-8b56-f13cecd8f61e" alt="Description" width="300" height="150">
-     
--  images processing is progressing and not stalled - take note of the `lastUpdated` field in a loading batch
--  check there are no long-running (ie > 24 hours) clusters
 
-    - In Airflow - select `Browse->Dag Runs` and filter on running state
-      
-        <img src="https://github.com/user-attachments/assets/3b69816d-09d3-4902-88ce-b80436110d54" alt="Description" width="300" height="200">
+- Images processing
+  -  Images uploads: https://images.ala.org.au/admin/batchUploads    
+  -  batch uploads progressing and not stalled - take note of the `lastUpdated` field in a loading batch
+    
+- DAG runs - ensure no clusters are long-running (ie > 24 hours)
 
--  clear biocache cache (has to be done after assertion sync and index successfully switched)
+  - In Airflow - select `Browse->Dag Runs` and filter on running state
+          <img src="https://github.com/user-attachments/assets/3b69816d-09d3-4902-88ce-b80436110d54" alt="Description" width="300" height="200">
 
+- clear biocache cache (has to be done after assertion sync and index successfully switched)
+  
+  - biocache admin: https://biocache.ala.org.au/admin
+    
 Raise any issues on the data management internal channel 
 
 - [x] Monday
@@ -35,10 +39,15 @@ Raise any issues on the data management internal channel
 - [x] Friday
 
 
-Once a week (whenever):
--  sensitive data check (script in GitHub)
+**Once a week (whenever)**
 
-**Note: Index Switch** - if manual index switch is needed run DAG `Update-Collection-Alias`
+Sensitive data check
+- Run SDS script found in: [Report-SDS-Information-Prod](https://github.com/AtlasOfLivingAustralia/authoritative-lists/blob/master/legacy-notebooks-scripts/monitoring/reports/scripts/Report-SDS-Information-Prod.py)
+- Commit new report to GitHub [SDS Information report](https://github.com/AtlasOfLivingAustralia/authoritative-lists/blob/master/legacy-notebooks-scripts/monitoring/reports/SDS-Assertions-Information-test.md)
+
+**Manual Index Switch**
+
+If manual index switch is needed run DAG `Update-Collection-Alias`
 
 
 ## Job Schedule
