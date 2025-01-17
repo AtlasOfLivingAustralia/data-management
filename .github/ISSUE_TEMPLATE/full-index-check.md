@@ -84,7 +84,7 @@ If manual index switch is needed run DAG `Update-Collection-Alias`
 **Monthly**
 | Day | Time | Job | DR | Job Name |
 | --- | --- | --- |  --- | --- |
-| First Thu | 5.15pm | MV | dr342 | dr342-MV-monthly |
+| First Thu | 5.15pm | Museums Victoria | dr342 | dr342-MV-monthly |
 | First Wed | 9am | TurtleSat | dr26141 | dr26141-turtleSat-monthly |
 | First Wed | 9am | UC Genomics | dr25075 | dr25075-UCGenomics-monthly |
 | 5th | 12am | UniMelb AVH | dr13282 | dr13282-melu-avh-monthly |
