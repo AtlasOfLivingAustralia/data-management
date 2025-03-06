@@ -48,7 +48,7 @@ Sensitive data check
 **Manual Index Switch**
 
 If manual index switch is needed run DAG `Update-Collection-Alias`
-- Update config value:  "new_collection": "new-biocache" set "new-biocache' to lastest collection.
+- Update config value:  "new_collection": "new-biocache" set "new-biocache' to lastest collection. Find new collection name in either SOLR Admin or in `Create SOLR collection` step of Full Index dag run.
 
   For example:  "new_collection": "biocache-2025-03-05-16-00"
 - Leave other config values unchanged
