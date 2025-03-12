@@ -1,3 +1,10 @@
+---
+name: Daily Checklist
+about: Steps necessary to check the full index and other data loads
+title: 'Daily Checklist: '
+labels: Full Index, Data loads, Assertion Sync and Image Service
+projects: AtlasOfLivingAustralia/21
+---
 **Every day**
 
 -  monitor the index switch
