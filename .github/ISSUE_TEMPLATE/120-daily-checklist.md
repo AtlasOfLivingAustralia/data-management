@@ -1,16 +1,16 @@
----
-name: Daily Checklist
-about: Steps necessary to check the full index and other data loads
-title: 'Daily checklist: '
-labels: Full Index, Data loads, Assertion Sync and Image Service
-assignees: ''
-
----
 **Every day**
 
 -  monitor the index switch
-  - open`stdout` in step `k. Check index and update collection alias`
-     - scroll to bottom and record `Current#, NEW#, DIFF#` values
+open`stdout` in step `k. Check index and update collection alias`
+scroll to bottom and record `Current#, NEW#, DIFF#` values
+The index will fail if there is any `SEVERE` issue in the log. 
+- [ ] Tuesday
+- [ ] Wednesday
+- [ ] Thursday
+- [ ] Friday
+
+**IMPORTANT:**  Clear all caches on [biocache](https://biocache.ala.org.au/admin) and [AVH](https://avh.ala.org.au/admin)
+
 -  all scheduled jobs for the day completed successfully (raise on Slack if not) 
 -  assertions sync has run - check user assertion counts are in DQ Profile using query:
 `https://biocache.ala.org.au/occurrences/search?q=`
@@ -32,13 +32,6 @@ assignees: ''
     
 Raise any issues on the data management internal channel 
 
-- [x] Monday
-- [x] Tuesday
-- [x] Wednesday
-- [x] Thursday
-- [x] Friday
-
-
 **Once a week (whenever)**
 
 Sensitive data check
@@ -47,11 +40,11 @@ Sensitive data check
 
 **Manual Index Switch**
 
-If manual index switch is needed run DAG `Update-Collection-Alias`
+If manual index switch is needed run DAG `Update-Collection-Alias`:
 - Update config value:  "new_collection": "new-biocache" set "new-biocache' to lastest collection. Find new collection name in either SOLR Admin or in `Create SOLR collection` step of Full Index dag run.
 
   For example:  "new_collection": "biocache-2025-03-05-16-00"
-- Check if any config values have been raised in errors, may need to set to false.
+- Check if there are **SEVERE** fails for the checks at the end the log as you may need to set them to false
 
 ## Job Schedule
 
