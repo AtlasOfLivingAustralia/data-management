@@ -77,7 +77,6 @@ If manual index switch is needed run DAG `Update-Collection-Alias`:
 | Tue | 8pm | Bionet | dr368 |  dr368-bionet-weekly |
 | Wed | 12am | Perth AVH | dr15863 | dr15863-perth-avh-weekly |
 | Wed | 8am | Questagame | dr1902| dr1902-questagame-weekly |
-| Wed | 9am | NatureMapr | dr19123 |  dr19123-naturemapr-weekly |
 | Wed | 1pm | QM | dr344 | dr344-QM-weekly |
 | Thu | 12am | CANB AVH | dr15860 |  dr15860-canb-avh-weekly|
 | Thu | 12.25am | CNS AVH | dr15867 | dr15867-cns-avh-weekly  |
@@ -95,6 +94,7 @@ If manual index switch is needed run DAG `Update-Collection-Alias`:
 | 6th | 12.01am | WELT AVH | dr26642 | dr26642-welt-avh-monthly |
 | 6th | 12.15am | Auckland Museum Botanical  | dr26650 | dr26650-ak-avh-monthly |
 | 6th | 12.45am | NZ PDD | dr26651| dr26651-pdd-avh-monthly |
+| 15th | 9am | NatureMapr | dr19123 |  dr19123-naturemapr-monthly |
 | 19th | 12am | NSW AVH | dr15861 | dr15861-nsw-avh-monthly|
 | 20th | 12am | BRI AVH | dr2287| dr2287-bri-avh-monthly |
 | 21st | 12am | AD AVH | dr15865 | dr15865-ad-avh-monthly | 
