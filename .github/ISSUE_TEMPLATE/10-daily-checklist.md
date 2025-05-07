@@ -73,6 +73,8 @@ If manual index switch is needed run DAG `Update-Collection-Alias`:
 | Tue | 9am | cPlatypus | dr7973 | dr7973-cplatypus-weekly |
 | Tue | 9am | APII | dr413 | dr413-apii-weekly |
 | Tue | 9am | Butterflies Aust | dr16457 |  dr16457-butterflies-weekly|
+| Tue | 2pm | ANFC | dr341 | 349-ANFC-weekly |
+| Tue | 2.30pm | ANWC | dr341 |  dr341-ANWC-weekly |
 | Tue | 5pm | Biocollect | dp3903 | dp3903-biocollect-weekly |
 | Tue | 8pm | Bionet | dr368 |  dr368-bionet-weekly |
 | Wed | 12am | Perth AVH | dr15863 | dr15863-perth-avh-weekly |
