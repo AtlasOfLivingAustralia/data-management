@@ -28,10 +28,11 @@ The index will fail if there is any `SEVERE` issue in the log.
   -  Images uploads: https://images.ala.org.au/admin/batchUploads    
   -  batch uploads progressing and not stalled - take note of the `lastUpdated` field in a loading batch
     
-- DAG runs - ensure no clusters are long-running (ie > 24 hours)
+- EMR runs - ensure no clusters are long-running (ie > 24 hours)
 
-  - In Airflow - select `Browse->Dag Runs` and filter on running state
-          <img src="https://github.com/user-attachments/assets/3b69816d-09d3-4902-88ce-b80436110d54" alt="Description" width="300" height="200">
+  - In EMR - select `Filter clusters by status` and filter on running. If there's a cluster running for more than 24 hours, terminate the cluster
+          <img width="1131" alt="image" src="https://github.com/user-attachments/assets/1654e197-d74a-4dcc-bc42-5b3aaf262cfd" />
+          
 
 - clear biocache cache (has to be done after assertion sync and index successfully switched)
   
