@@ -19,11 +19,15 @@ The index will fail if there is any `SEVERE` issue in the log.
 **IMPORTANT:**  Clear all caches on [biocache](https://biocache.ala.org.au/admin) and [AVH](https://avh.ala.org.au/admin)
 
 -  all scheduled jobs for the day completed successfully (raise on Slack if not) 
--  assertions sync has run - check user assertion counts are in DQ Profile using query:
-`https://biocache.ala.org.au/occurrences/search?q=`
-      
-     <img src="https://github.com/user-attachments/assets/213ddffb-c7fb-4084-8b56-f13cecd8f61e" alt="Description" width="300" height="150">
+-  assertions sync has run - check user assertion counts are in DQ Profile using this
+ [user assertions query](https://biocache.ala.org.au/occurrence/search?q=userAssertions%3A*)
 
+The example below shows that there are:
+- Total user assertions: 13,738
+- Unresolved user assertions: 10,660
+
+![Screenshot 2025-05-20 142040](https://github.com/user-attachments/assets/238094aa-de5f-4413-998d-a293e1d0f8e4)
+      
 - Images processing
   -  Images uploads: https://images.ala.org.au/admin/batchUploads    
   -  batch uploads progressing and not stalled - take note of the `lastUpdated` field in a loading batch
