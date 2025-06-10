@@ -9,7 +9,7 @@
 
 The SA Department for Environment and Water sends two zip files for `SA Flora` and `SA Fauna` to ALA uploads:
  
-    s3://ala-uploads-source-data-production/uploads-server-sync/dewnr-sa/upload/dewnr-sa/
+    uploads-server-sync/dewnr-sa/upload/dewnr-sa/
 
 These 2 zip files contain data data for 3 dataresources
 
