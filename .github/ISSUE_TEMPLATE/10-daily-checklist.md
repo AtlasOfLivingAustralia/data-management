@@ -105,6 +105,7 @@ If manual index switch is needed run DAG `Update-Collection-Alias`:
 
 **Deleted**
 | Day | Time | Job |DR | Job Name| Scheduled |
+| --- | --- | --- |  --- | --- | --- |
 | Thu | 12am | CANB AVH | dr15860 |  dr15860-canb-avh-weekly| Deleted|
 | Thu | 12.25am | CNS AVH | dr15867 | dr15867-cns-avh-weekly  | Deleted |
 | Thu | 12.40am | JCT AVH | dr15868 | dr15868-jct-avh-weekly | Deleted |
