@@ -85,9 +85,7 @@ If manual index switch is needed run DAG `Update-Collection-Alias`:
 | Wed | 12am | Perth AVH | dr15863 | dr15863-perth-avh-weekly | Y |
 | Wed | 8am | Questagame | dr1902| dr1902-questagame-weekly |
 | Wed | 1pm | QM | dr344 | dr344-QM-weekly | Y |
-| Thu | 12am | CANB AVH | dr15860 |  dr15860-canb-avh-weekly| N |
-| Thu | 12.25am | CNS AVH | dr15867 | dr15867-cns-avh-weekly  | N |
-| Thu | 12.40am | JCT AVH | dr15868 | dr15868-jct-avh-weekly | N |
+
 
 **Monthly**
 | Day | Time | Job | DR | Job Name | Scheduled |
@@ -102,6 +100,12 @@ If manual index switch is needed run DAG `Update-Collection-Alias`:
 | 6th | 12.15am | Auckland Museum Botanical  | dr26650 | dr26650-ak-avh-monthly | Y |
 | 6th | 12.45am | NZ PDD | dr26651| dr26651-pdd-avh-monthly | Y |
 | 15th | 9am | NatureMapr | dr19123 |  dr19123-naturemapr-monthly | Y |
-| 19th | 12am | NSW AVH | dr15861 | dr15861-nsw-avh-monthly| N |
 | 20th | 12am | BRI AVH | dr2287| dr2287-bri-avh-monthly | N |
 | 21st | 12am | AD AVH | dr15865 | dr15865-ad-avh-monthly |  Y |
+
+**Deleted**
+| Day | Time | Job |DR | Job Name| Scheduled |
+| Thu | 12am | CANB AVH | dr15860 |  dr15860-canb-avh-weekly| Deleted|
+| Thu | 12.25am | CNS AVH | dr15867 | dr15867-cns-avh-weekly  | Deleted |
+| Thu | 12.40am | JCT AVH | dr15868 | dr15868-jct-avh-weekly | Deleted |
+| 19th | 12am | NSW AVH | dr15861 | dr15861-nsw-avh-monthly| Deleted |
