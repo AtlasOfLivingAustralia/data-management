@@ -75,6 +75,8 @@ If manual index switch is needed run DAG `Update-Collection-Alias`:
 | Mon | 12am | BIS Weeds  | dr27665|  dr27665-BISFetcher-weekly | Y |
 | Mon | 7am | iNaturalist | dr1411| dr1411-inaturalist-weekly | Y |
 | Mon | 7pm | FeralScan | dr19813 | dr19813-feralscan-weekly | Y |
+| Tue | 12am | Northern Territory AVH | dr15866 | dr15866-dna-avh | Y |
+| Tue | 12am | Melbourne AVH | dr376 | dr376-mel-avh-weekly | Y |
 | Tue | 9am | cPlatypus | dr7973 | dr7973-cplatypus-weekly | Y |
 | Tue | 9am | APII | dr413 | dr413-apii-weekly | Y |
 | Tue | 9am | Butterflies Aust | dr16457 |  dr16457-butterflies-weekly| Y |
