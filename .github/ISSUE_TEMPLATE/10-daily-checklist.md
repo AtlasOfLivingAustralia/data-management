@@ -20,7 +20,7 @@ The index will fail if there is any `SEVERE` issue in the log.
 
 -  all scheduled jobs for the day completed successfully (raise on Slack if not) 
 -  assertions sync has run - check user assertion counts are in DQ Profile using this
- [user assertions query](https://biocache.ala.org.au/occurrence/search?q=userAssertions%3A*)
+ [user assertions query](https://biocache.ala.org.au/occurrence/search?q=userAssertions%3A*&qualityProfile=ALA&disableAllQualityFilters=true)
 
 The example below shows that there are:
 - Total user assertions: 13,738
