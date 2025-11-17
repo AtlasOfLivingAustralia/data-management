@@ -97,6 +97,7 @@ If manual index switch is needed run DAG `Update-Collection-Alias`:
 | First Wed | 9am | UC Genomics | dr25075 | dr25075-UCGenomics-monthly | Y |
 | 5th | 12am | UniMelb AVH | dr13282 | dr13282-melu-avh-monthly | Y |
 | 5th | 12am | Hobart AVH  | dr10574 | dr10574-ho-avh-monthly | Y |
+| 5th | 5pm | Australian Museum AM  | dr340 | dr340-AM-monthly | Y |
 | 6th | 12am | Allan Herbarium | dr27654| dr27654-chr-avh-monthly | Y |
 | 6th | 12.01am | WELT AVH | dr26642 | dr26642-welt-avh-monthly | Y |
 | 6th | 12.15am | Auckland Museum Botanical  | dr26650 | dr26650-ak-avh-monthly | Y |
